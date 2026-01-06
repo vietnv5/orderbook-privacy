@@ -20,6 +20,16 @@ All data entered by users, including:
 
 are stored **locally on the user's device only**.
 
+## Backup & Restore
+
+Sổ Đơn provides manual backup and restore features.
+
+- Backup files are created only when the user explicitly requests
+- Backup files are stored locally or in a user-selected location
+- The app does not upload or access backup files
+
+All backup and restore operations are performed entirely on the user’s device.
+
 ## Permissions
 
 The app may request the following permissions to support core features:
@@ -31,11 +41,18 @@ The app may request the following permissions to support core features:
 * **Photos / Media / Storage access**
   Used to:
 
-    * Select images from the device gallery
-    * Save app data locally
-    * Export data files (if the user chooses to)
+  * Select images from the device gallery
+  * Save app data locally
+  * Export data files (if the user chooses to)
 
 These permissions are **optional** and are used **only when the user explicitly performs related actions**.
+
+## External Links
+
+The app may open external applications such as web browsers or email clients
+when the user chooses to contact support or view related information.
+
+No data is shared automatically with external services.
 
 ## Third-party Services
 
