@@ -1,3 +1,4 @@
+
 # Privacy Policy for Sổ Đơn
 
 **Last updated:** 2026-01-28
@@ -23,6 +24,16 @@ All data entered by users, including:
 * Images added to orders or products
 
 is stored **locally on the user's device**, unless the user explicitly chooses to back up data.
+
+---
+
+## Text Input Features
+
+The app provides tools to help you quickly enter order information by analyzing text you paste from other sources (such as Facebook comments, messages, etc.).
+
+- All text analysis is performed **locally on your device**
+- The app does not connect to external services for text processing
+- You can review and edit all analyzed information before saving
 
 ---
 
@@ -105,9 +116,9 @@ Sổ Đơn uses **Google Drive API** solely to provide optional backup and resto
 * No data is shared with the developer or any other third party
 * The app does **not use**:
 
-    * Analytics services
-    * Advertising networks
-    * Tracking SDKs
+  * Analytics services
+  * Advertising networks
+  * Tracking SDKs
 
 Google Drive usage follows Google’s Privacy Policy.
 
