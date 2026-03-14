@@ -1,7 +1,7 @@
 
 # Privacy Policy for Sổ Đơn
 
-**Last updated:** 2026-01-28
+**Last updated:** 2026-03-14
 
 ## Introduction
 
@@ -34,6 +34,19 @@ The app provides tools to help you quickly enter order information by analyzing 
 - All text analysis is performed **locally on your device**
 - The app does not connect to external services for text processing
 - You can review and edit all analyzed information before saving
+
+---
+
+## Voice Input
+
+Sổ Đơn may provide an **optional voice input feature** that allows users to create or edit orders using speech.
+
+* The microphone is used **only when the user explicitly activates voice input**
+* Audio is processed by the device’s **speech recognition service** to convert speech into text
+* The app does **not record, store, or transmit audio recordings to the developer**
+* Only the recognized text is used within the app to assist with order creation
+
+Voice input is entirely **user-initiated** and can be stopped at any time.
 
 ---
 
@@ -95,6 +108,13 @@ Used only to:
 * Save app data locally
 * Export or import backup files (local or Google Drive, when initiated by the user)
 
+### Microphone
+
+Used only when the user chooses to create or edit orders using **voice input**.
+
+Audio is processed by the device’s speech recognition service to convert speech into text.
+The app does **not record, store, or transmit audio recordings**.
+
 All permissions are **optional** and are used **only when the user explicitly performs related actions**.
 
 ---
@@ -152,3 +172,4 @@ Any changes will be posted on this page with an updated revision date.
 If you have any questions about this Privacy Policy, please contact:
 
 **Email:** [vsoft102@gmail.com](mailto:vsoft102@gmail.com)
+
