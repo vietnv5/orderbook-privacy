@@ -1,20 +1,20 @@
 
 # Privacy Policy for Sổ Đơn
 
-**Last updated:** 2026-03-14
+**Last updated:** 2026-04-15
 
 ## Introduction
 
 Sổ Đơn ("we", "our", or "us") respects your privacy.
 
-This application is designed to work **offline-first**.
-We do **not collect, track, analyze, or sell personal data**, and we do **not operate any external servers**.
+This application is designed to work **offline-first** with optional cloud features.
+We do **not collect, track, analyze, or sell personal data**.
 
 ---
 
 ## Data Collection
 
-Sổ Đơn **does not collect or send personal information** to the developer or to any remote servers.
+Sổ Đơn **does not collect or send personal information** to the developer.
 
 All data entered by users, including:
 
@@ -23,7 +23,7 @@ All data entered by users, including:
 * Customers
 * Images added to orders or products
 
-is stored **locally on the user's device**, unless the user explicitly chooses to back up data.
+is stored **locally on the user's device**, unless the user explicitly chooses to use backup or online sync features.
 
 ---
 
@@ -81,9 +81,26 @@ Sổ Đơn also provides an **optional backup and restore feature using Google D
 
 ---
 
+## Online Sync (Firestore)
+
+Sổ Đơn provides an **optional online sync feature** using **Google Firestore**.
+
+* Online sync runs **only when the user explicitly enables sync**
+* When Online mode is enabled, the app syncs data (such as orders, products, customers, and related metadata) to Firebase Firestore
+* Synced data can be managed online by the user through the web platform: [https://sodon-vsoft.vercel.app/](https://sodon-vsoft.vercel.app/)
+* Access to online management requires the user to sign in with a Google account
+* Synced data is stored in cloud infrastructure provided by Google Firebase (Firestore), under the user account/context configured in the app and web platform
+* The developer does not use synced data for analytics, advertising, or data selling
+* Users can disable online sync at any time and continue using the app offline
+
+---
+
 ## Google Sign-In
 
-Google Sign-In is used **only for authentication purposes** to enable access to Google Drive App Data for backup and restore.
+Google Sign-In is used **for authentication purposes** to:
+
+* Enable online sync and web access for managing synchronized data
+* Enable access to Google Drive App Data for backup and restore (when used)
 
 * No personal information is collected or stored by the app
 * Authentication is handled securely by Google
@@ -130,17 +147,22 @@ No data is shared automatically with external services.
 
 ## Third-party Services
 
-Sổ Đơn uses **Google Drive API** solely to provide optional backup and restore functionality.
+Sổ Đơn uses third-party services only to provide user-requested features:
 
-* Data is transferred only to the user’s personal Google Drive App Data folder
-* No data is shared with the developer or any other third party
+* **Google Drive API** for optional backup and restore
+* **Google Firebase Firestore** for optional online sync
+* **Google Sign-In / Google Authentication** for secure login
+* **Sổ Đơn web platform** at [https://sodon-vsoft.vercel.app/](https://sodon-vsoft.vercel.app/) for online data management
+
+* Data is transferred only when the user initiates backup/restore or enables sync
+* No data is shared for advertising purposes or sold to third parties
 * The app does **not use**:
 
   * Analytics services
   * Advertising networks
   * Tracking SDKs
 
-Google Drive usage follows Google’s Privacy Policy.
+Google service usage follows Google’s Privacy Policy.
 
 ---
 
@@ -153,9 +175,10 @@ and does not knowingly collect personal data from children.
 
 ## Data Security
 
-All data is stored locally on the user's device or in the user’s own Google Drive account.
+All data is stored locally on the user's device and, when enabled by the user, may also be stored in Google services (Google Drive App Data and/or Firebase Firestore).
+Users who enable online sync may also access and manage synchronized data through the Sổ Đơn web platform.
 
-The developer does **not** have access to user data.
+The developer does not access user data for profiling, analytics, or advertising.
 Users are responsible for protecting access to their devices and Google accounts.
 
 ---
